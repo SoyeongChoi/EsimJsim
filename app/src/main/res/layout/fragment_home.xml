@@ -6,7 +6,6 @@
     android:layout_height="wrap_content"
     tools:context=".MainActivity"
     android:orientation="vertical">
-<<<<<<< HEAD
 
     <ImageButton
         android:id="@+id/total"
@@ -65,38 +64,4 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"/>
 
-=======
-    <LinearLayout
-        android:layout_marginTop="60dp"
-        android:id="@+id/linear_0"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="false"
-        android:gravity="center"
-        android:orientation="horizontal">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <Button
-                android:id="@+id/total"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="20dp"
-                android:text="전체"/>
-            <Button
-                android:id="@+id/wansan"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="20dp"
-                android:text="완산구"/>
-            <Button
-                android:id="@+id/ducjin"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="20dp"
-                android:text="덕진구"/>
-        </LinearLayout>
-
-    </LinearLayout>
->>>>>>> origin/master
 </RelativeLayout>

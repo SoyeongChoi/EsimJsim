@@ -49,18 +49,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="40dp">
 
-<<<<<<< HEAD
-=======
-                    <Spinner
-                        android:id="@+id/txt_question_type"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="5"
-                        android:backgroundTint="#7a7a7a"
-                        android:gravity="bottom" />
-
-
->>>>>>> origin/master
                 </LinearLayout>
 
 
@@ -94,19 +82,6 @@
                     android:progressTint="@color/colorWhite"
                     android:queryHint="리스트 검색" />
 
-<<<<<<< HEAD
-=======
-                <Switch
-                    android:id="@+id/single"
-                    android:layout_width="wrap_content"
-                    android:textColor="#7A7A7A"
-                    android:layout_height="wrap_content"
-                    android:width="0dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="0.5"
-                    android:checked="false"
-                    android:text="1인 식당" />
->>>>>>> origin/master
             </LinearLayout>
             <View
                 android:layout_width="match_parent"
@@ -143,11 +118,7 @@
                         android:gravity="center"
                         android:layout_margin="10dp"
                         android:layout_height="wrap_content"
-<<<<<<< HEAD
                         android:text="TEL" />
-=======
-                        android:text="CATEGORY" />
->>>>>>> origin/master
 
                     <TextView
                         android:id="@+id/textView_header3"
