@@ -1,5 +1,6 @@
 package com.example.chm31.esimjsim;
 
+<<<<<<< HEAD
 import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
@@ -10,11 +11,16 @@ import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+=======
+import android.os.Bundle;
+import android.os.StrictMode;
+>>>>>>> origin/master
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -55,17 +61,26 @@ public class LikeFragment extends Fragment implements OnMapReadyCallback {
     ArrayList<String> address_list = new ArrayList<>();
     ArrayList<String> place_list = new ArrayList<>();
     private MapView mapView = null;
+=======
+
+public class LikeFragment extends Fragment{
+>>>>>>> origin/master
 
     public LikeFragment(){
 
     }
 
     @Override
+<<<<<<< HEAD
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
+=======
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+>>>>>>> origin/master
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         final View rootView = inflater.inflate(R.layout.fragment_like, container, false);
 
+<<<<<<< HEAD
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference();
 
@@ -206,4 +221,8 @@ public class LikeFragment extends Fragment implements OnMapReadyCallback {
             mapView.onCreate(savedInstanceState);
         }
     }
+=======
+        return rootView;
+    }
+>>>>>>> origin/master
 }

@@ -30,7 +30,11 @@
             android:layout_marginBottom="20dp"
             android:scaleType="centerInside"
             android:src="@drawable/kakao_login"
+<<<<<<< HEAD
             />
+=======
+         />
+>>>>>>> origin/master
 
         <ImageButton
             android:id="@+id/btn_naver_login"

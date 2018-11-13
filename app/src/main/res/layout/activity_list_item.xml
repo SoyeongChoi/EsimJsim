@@ -8,7 +8,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+<<<<<<< HEAD
 
+=======
+        <!--
+>>>>>>> origin/master
          <com.dd.ShadowLayout
              android:background="@drawable/list_border"
              android:layout_width="match_parent"
@@ -18,7 +22,11 @@
              app:sl_shadowColor="#aaaaaaaa"
              app:sl_dx="0dp"
              app:sl_dy="0dp"
+<<<<<<< HEAD
              >
+=======
+             >-->
+>>>>>>> origin/master
         <LinearLayout
             android:layout_margin="10dp"
             android:layout_width="match_parent"
@@ -55,7 +63,11 @@
 
 
         </LinearLayout>
+<<<<<<< HEAD
         </com.dd.ShadowLayout>
+=======
+        <!-- </com.dd.ShadowLayout>-->
+>>>>>>> origin/master
     </LinearLayout>
 
 

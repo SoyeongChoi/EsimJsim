@@ -23,6 +23,7 @@ public class FAQ extends AppCompatActivity {
 
         mGroupList = new ArrayList<String>();
         mChildList = new LinkedHashMap<String,List<String>>();
+<<<<<<< HEAD
         mGroupList.add("안심먹거리가 무엇인가요?");
         mGroupList.add("식당에 대한 정보는 어디서 가져오나요?");
         mGroupList.add("제 아이디인데 삭제가 되지 않아요");
@@ -40,6 +41,29 @@ public class FAQ extends AppCompatActivity {
                 loadChild("전주시 공공데이터포털에서 가져오는 정보입니다.");
             }else if(question.contains("길찾기")){
                 loadChild("지도에 있는 마커를 클릭하면 길찾기 기능을 사용할 수 있습니다.");
+=======
+
+        mGroupList.add("원하는 구를 선택했는데 리스트가 바뀌지 않아요");
+        mGroupList.add("병원 지도가 이상하게 떠요");
+        mGroupList.add("코스리스트에서 아이템을 선택해도 아무런 변화가 없어요");
+        mGroupList.add("관광지에 사진이 뜨지않아요");
+        mGroupList.add("제 아이디인데 삭제가 되지 않아요");
+        mGroupList.add("개발자가 누구인가요?");
+
+        for(String question : mGroupList){
+            if(question.contains("원하는 구")){
+                loadChild("옆의 새로 고침 버튼을 눌러보세요!\n새로 고침을 누르지 않아서 바뀌지 않는 것일 수 있습니다.");
+            }else if(question.contains("병원 지도")){
+                loadChild("리스트에 있는 병원을 클릭해보세요!\n아무 것도 누르지 않으면 지도에 아무 것도 뜨지 않습니다.");
+            }else if(question.contains("코스리스트에서")){
+                loadChild("세부 사항이 제공되지 않는 장소입니다.\n정보가 부족한 장소는 세부사항이 제공되지 않습니다.");
+            }else if(question.contains("개발자가")){
+                loadChild("충남대학교 컴퓨터공학과에 재학중인 전혜민, 최소영, 허아정 학생입니다.\n 셋은 친구랍니다.");
+            }else if(question.contains("관광지에")){
+                loadChild("관광지 자체에서 제공되지 않는 사진입니다.\n제공되지 않는 사진은 'No Image'라고 뜨는게 정상입니다.");
+            }else if(question.contains("제 아이디")){
+                loadChild("로그인 타입(카카오톡, 네이버, 페이스북)을 확인해보세요!\n작성된 글과 현재 로그인한 타입이 일치하지 않으면 삭제가 되지 않습니다.");
+>>>>>>> origin/master
             }
             mChildList.put(question,mChildListContent);
 
@@ -111,6 +135,13 @@ public class FAQ extends AppCompatActivity {
     }
     private void loadChild(String ask) {
         mChildListContent = new ArrayList<String>();
+<<<<<<< HEAD
         mChildListContent.add(ask);
     }
 }
+=======
+            mChildListContent.add(ask);
+    }
+}
+
+>>>>>>> origin/master

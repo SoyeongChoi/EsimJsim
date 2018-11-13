@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     >
+<<<<<<< HEAD
     <fragment
         class="com.google.android.gms.maps.MapFragment"
         android:id="@+id/map"
@@ -16,6 +17,8 @@
         android:layout_margin="10dp"
         />
 
+=======
+>>>>>>> origin/master
 
 
 </android.support.design.widget.CoordinatorLayout>
