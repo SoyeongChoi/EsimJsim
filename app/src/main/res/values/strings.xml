@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">EsimJsim</string>
+    <string name="app_name">이심전심</string>
+    <string name="nav_Home">Home</string>
+    <string name="nav_Like">Like</string>
+    <string name="nav_More">More</string>
+    <string name="facebook_app_id">2698538870172464</string>
 </resources>

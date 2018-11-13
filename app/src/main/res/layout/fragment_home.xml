@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/total"
+        android:layout_width="100dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:text="전체"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/jeonjuall"
+        android:scaleType="centerInside"
+        android:background="?attr/selectableItemBackground"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+
+    <ImageView
+        android:id="@+id/jeonjumap"
+        android:layout_width="350dp"
+        android:layout_weight="1"
+        android:layout_height="330dp"
+        android:background="@mipmap/jeonju_map"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageButton
+        android:id="@+id/wansanBtn"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:src="@drawable/wansan"
+        android:scaleType="centerInside"
+        android:background="?attr/selectableItemBackground"
+        android:text="완산구"
+        android:clickable="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="130dp"/>
+
+    <ImageButton
+        android:id="@+id/ducjinBtn"
+        android:clickable="true"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:text="덕진구"
+        android:src="@drawable/ducjin"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/wansanBtn"
+        android:scaleType="centerInside"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:layout_below="@+id/jeonjumap"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/show"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
