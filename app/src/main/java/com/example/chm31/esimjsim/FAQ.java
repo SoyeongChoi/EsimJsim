@@ -24,10 +24,11 @@ public class FAQ extends AppCompatActivity {
         mGroupList = new ArrayList<String>();
         mChildList = new LinkedHashMap<String,List<String>>();
         mGroupList.add("안심먹거리가 무엇인가요?");
+        mGroupList.add("모범업소의 선정기준은 무엇인가요?");
+        mGroupList.add("길찾기 기능은 어디 있나요?");
         mGroupList.add("식당에 대한 정보는 어디서 가져오나요?");
         mGroupList.add("제 아이디인데 삭제가 되지 않아요");
         mGroupList.add("개발자가 누구인가요?");
-        mGroupList.add("길찾기 기능은 없나요?");
 
         for(String question : mGroupList){
             if(question.contains("개발자가")){
@@ -40,6 +41,8 @@ public class FAQ extends AppCompatActivity {
                 loadChild("전주시 공공데이터포털에서 가져오는 정보입니다.");
             }else if(question.contains("길찾기")){
                 loadChild("지도에 있는 마커를 클릭하면 길찾기 기능을 사용할 수 있습니다.");
+            }else if(question.contains("모범업소")){
+                loadChild("권장 반찬 가짓수 준수 여부, 청결하고 위생적인 시설 구비, 1회용품 사용 억제, 친절하고 예의바른 종업원의 태도 등의 기준을 만족할 때 모범업소로 선정됩니다.");
             }
             mChildList.put(question,mChildListContent);
 
