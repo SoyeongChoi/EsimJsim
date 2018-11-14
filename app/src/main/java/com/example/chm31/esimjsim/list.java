@@ -453,7 +453,7 @@ public class list extends AppCompatActivity implements SearchView.OnQueryTextLis
             list.addAll(arrayList);
         }else{
             for(int i=0; i < arrayList.size(); i++){
-                if(arrayList.get(i).get("title").contains(charText)){
+                if(arrayList.get(i).get("title").contains(charText)||arrayList.get(i).get("addr").contains(charText)){
                     list.add(arrayList.get(i));
                 }
             }
